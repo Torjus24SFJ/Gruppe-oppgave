@@ -48,37 +48,53 @@ export function MatKort() {
               <h2>Instructions</h2>
               <ul>
                 <li>
-                  <span>Beat the eggs:</span>
+                  <span className={style.boldText}>Beat the eggs:</span>
+                  <span>
+                    In a bowl, beat the eggs with a pinch of salt and pepper
+                    until they are well mixed. You can add a table spoon of water or milk for a fluffier texture.
+                  </span>
                 </li>
                 <li>
-                  <span>Heat the pan:</span>
+                  <span className={style.boldText}>Heat the pan:</span>
                 </li>
                 <li>
-                  <span>Cook the omelette:</span>
+                  <span className={style.boldText}>Cook the omelette:</span>
                 </li>
                 <li>
-                  <span>Add fillings(optional)</span>
+                  <span className={style.boldText}>Add fillings(optional)</span>
                 </li>
                 <li>
-                  <span>Fold and serve:</span>
+                  <span className={style.boldText}>Fold and serve:</span>
                 </li>
                 <li>
-                  <span>Enjoy:</span>
+                  <span className={style.boldText}>Enjoy:</span>
                 </li>
               </ul>
             </div>
             <span className={style.separator} />
-            <div className="nutrition_container">
+            <div className={style.nutrition_container}>
               <h2>Nutrition</h2>
               <div className={style.table}>
                 <span className={style.separator} />
-                <p><span>Calories</span><span className={style.nutritionalValue}>277kcal</span></p>
+                <p>
+                  <span>Calories</span>
+                  <span className={style.nutritionalValue}>277kcal</span>
+                </p>
                 <span className={style.separator} />
-                <p><span>Carbs</span><span className={style.nutritionalValue}>0g</span></p>
+                <p>
+                  <span>Carbs</span>
+                  <span className={style.nutritionalValue}>0g</span>
+                </p>
                 <span className={style.separator} />
-                <p><span>Protein</span><span className={style.nutritionalValue}>20g</span></p>
+                <p>
+                  <span>Protein</span>
+                  <span className={style.nutritionalValue}>20g</span>
+                </p>
                 <span className={style.separator} />
-                <p><span>Fat</span><span className={style.nutritionalValue}>22g</span></p>
+                <p>
+                  <span>Fat</span>
+                  <span className={style.nutritionalValue}>22g</span>
+                </p>
               </div>
             </div>
           </div>

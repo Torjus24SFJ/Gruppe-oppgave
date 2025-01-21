@@ -84,15 +84,20 @@ ul {
 
 li {
   padding-top: 20px;
+  font-family: var(--font1);
+}
+
+.instructions_container li {
+    list-style:decimal;
 }
 
 .boldText {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .separator {
   border-top: 1px solid var(--LightGrey);
-  margin: 30px 30px 10px;
+  width: 100%;
   align-self: center;
 }
 
