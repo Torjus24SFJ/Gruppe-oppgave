@@ -51,7 +51,8 @@ export function MatKort() {
                   <span className={style.boldText}>Beat the eggs:</span>
                   <span>
                     In a bowl, beat the eggs with a pinch of salt and pepper
-                    until they are well mixed. You can add a table spoon of water or milk for a fluffier texture.
+                    until they are well mixed. You can add a table spoon of
+                    water or milk for a fluffier texture.
                   </span>
                 </li>
                 <li>
@@ -73,8 +74,8 @@ export function MatKort() {
             </div>
             <span className={style.separator} />
             <div className={style.nutrition_container}>
-              <h2>Nutrition</h2>
               <div className={style.table}>
+                <h2>Nutrition</h2>
                 <span className={style.separator} />
                 <p>
                   <span>Calories</span>
