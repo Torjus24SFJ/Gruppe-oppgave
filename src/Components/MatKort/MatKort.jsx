@@ -6,7 +6,7 @@ export function MatKort() {
       <div className={`${style.container}`}>
         <section className="recipe-page-section">
           <div className="recipe-page-content">
-            <img src="" alt="" />
+            <img src="./src/assets/images/MatKort/image-omelette.jpeg" alt="" />
           </div>
         </section>
       </div>
