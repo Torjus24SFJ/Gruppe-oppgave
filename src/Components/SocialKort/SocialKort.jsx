@@ -1,27 +1,38 @@
 import React from "react";
+import "./SocialKort.css";
 
-const SocialLinkCard = () => {
-  const socialLinks = [
-    { name: "GitHub", url: "https://github.com"},
-    { name: "Frontend Mentor", url: "https://frontendmentor.io"},
-    { name: "Twitter", url: "https://twitter.com"},
-    { name: "LinkedIn", url: "https://linkedin.com"},
-    
-  ];
+const SocialKort = () => {
+  const user = {
+    name: "Jessica Randall",
+    location: "London, United Kingdom",
+    description: "Front-end developer and avid reader.",
+    profilePicture: "./avatar-jessica.jpeg", 
+    links: [
+      { name: "GitHub", url: "https://github.com" },
+      { name: "Frontend Mentor", url: "https://frontendmentor.io" },
+      { name: "LinkedIn", url: "https://linkedin.com" },
+      { name: "Twitter", url: "https://twitter.com" },
+      { name: "Instagram", url: "https://instagram.com" },
+    ],
+  };
 
   return (
-    <div className="">
-      <h3>Follow Me</h3>
-      <ul>
-        {socialLinks.map((link, index) => (
-          <li key={index}>
-            <a href={link.url} target="_blank" rel="noopener noreferrer">
-              {link.icon} {link.name}
-            </a>
-          </li>
+    <div className="social-kort">
+      <img src={user.profilePicture} alt={`${user.name}'s profile`} className="profile-picture" />
+      <h2>{user.name}</h2>
+      <p className="location">{user.location}</p>
+      <p className="description">"{user.description}"</p>
+      <div className="links">
+        {user.links.map((link, index) => (
+          <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
+            {link.name}
+          </a>
         ))}
-      </ul>
+      </div>
     </div>
   );
 };
+
+export default SocialKort;
+
 
