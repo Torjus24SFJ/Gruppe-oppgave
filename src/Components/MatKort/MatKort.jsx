@@ -43,7 +43,7 @@ export function MatKort() {
                 </li>
               </ul>
             </div>
-            <hr className={style.separator} />
+            <span className={style.separator} />
             <div className={style.instructions_container}>
               <h2>Instructions</h2>
               <ul>
@@ -67,17 +67,18 @@ export function MatKort() {
                 </li>
               </ul>
             </div>
-            <hr className={style.separator} />
+            <span className={style.separator} />
             <div className="nutrition_container">
               <h2>Nutrition</h2>
               <div className={style.table}>
-                <p>Calories</p>
-                <hr className={style.separator} />
-                <p>Carbs</p>
-                <hr className={style.separator} />
-                <p>Protein</p>
-                <hr className={style.separator} />
-                <p>Fat</p>
+                <span className={style.separator} />
+                <p><span>Calories</span><span className={style.nutritionalValue}>277kcal</span></p>
+                <span className={style.separator} />
+                <p><span>Carbs</span><span className={style.nutritionalValue}>0g</span></p>
+                <span className={style.separator} />
+                <p><span>Protein</span><span className={style.nutritionalValue}>20g</span></p>
+                <span className={style.separator} />
+                <p><span>Fat</span><span className={style.nutritionalValue}>22g</span></p>
               </div>
             </div>
           </div>
