@@ -1,12 +1,11 @@
-// import { useState } from 'react'
 import './App.css'
-import { MatKort } from './Components/MatKort/MatKort'
+// import { MatKort } from './Components/MatKort/MatKort'
 
 function App() {
 
   return (
     <>
-      <MatKort />
+      {/* <MatKort /> */}
     </>
   )
 }
