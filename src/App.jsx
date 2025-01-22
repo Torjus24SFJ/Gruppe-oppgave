@@ -9,7 +9,8 @@ function App() {
     <>
       {/* <MatKort /> */}
       {/* <NFTKort /> */}
-      <ResultatOversikt />
+      <ResultatOversikt score={{
+      }}/>
     </>
   )
 }
