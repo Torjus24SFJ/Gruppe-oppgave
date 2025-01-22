@@ -17,11 +17,12 @@
 }
 
 .nft_card_section {
-  width: 1440px;
-  height: 1955px;
+  width: 1000px;
+  height: 1000px;
   background-color: var(--Very-dark-blue-mainBG);
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
+  align-items: center;
 }
 
 .card_container {
@@ -33,8 +34,9 @@
   display: flex;
   flex-direction: column;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
-  font-size: var(--body-font-size);
   font-family: "Outfit";
+  font-size: var(--body-font-size);
+  font-weight: 200;
 }
 
 .main_image {
@@ -45,17 +47,21 @@
 h1 {
   color: var(--White);
   margin-top: 20px;
+  font-size: 20px;
 }
 
 h3 {
   color: var(--Soft-blue);
-  font-weight: 400;
+  font-weight: 100;
   margin-top: 20px;
+  font-size: 18px;
 }
 
 .etherium {
   display: flex;
   flex-direction: row;
+  justify-content: flex-start;
+  gap: 140px;
   margin-top: 30px;
 }
 
@@ -76,14 +82,33 @@ h3 {
   display: block;
 }
 
-
 .cyan {
-    color: var(--Cyan);
-    font-weight: 500;
-    font-size: 16px;
+  color: var(--Cyan);
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .gray {
-    color: var(--Soft-blue);
-    font-size: 16px;
+  color: var(--Soft-blue);
+  font-size: 16px;
+}
+
+.bottom_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  margin-top: 20px;
+  font-size: 16px;
+}
+.bottom_container p span {
+  color: var(--Soft-blue);
+}
+
+.image_icon {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #FFF;
+  border-radius: 35px;
 }
