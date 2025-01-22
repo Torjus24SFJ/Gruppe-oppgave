@@ -1,0 +1,56 @@
+:root {
+  --Soft-blue: hsl(215, 51%, 70%);
+  --Cyan: hsl(178, 100%, 50%);
+  --Very-dark-blue-mainBG: hsl(217, 54%, 11%);
+  --Very-dark-blue-cardBG: hsl(216, 50%, 16%);
+  --Very-dark-blue-line: hsl(215, 32%, 27%);
+  --White: hsl(0, 0%, 100%);
+  --body-font-size: 18px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nft_card_section {
+  width: 1440px;
+  height: 1955px;
+  background-color: var(--Very-dark-blue-mainBG);
+  display: flex;
+  justify-content: center;
+}
+
+.card_container {
+  background-color: var(--Very-dark-blue-cardBG);
+  width: 386px;
+  height: 600px;
+  padding: 14px;
+  margin: 90px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  font-family: var(--body-font-size);
+}
+
+.main_image {
+  width: 320px;
+  height: 340px;
+}
+
+h1 {
+  color: var(--white);
+}
+
+h3 {
+  color: var(--Soft-blue);
+  font-weight: 400;
+}
+
+.etherium {
+  display: flex;
+  flex-direction: row;
+}
