@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root{
+    --Light-slate-blue: hsl(252, 100%, 67%);
+    --Light-royal-blue: hsl(241, 81%, 54%);
+    --Violet-blue: hsla(256, 72%, 46%, 1);
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+    --white: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --color: hsl(241, 100%, 89%);
+    --btn-bg: hsl(224, 30%, 27%);
+    
+    --fs-xs: 0.875rem;
+    --fs-s: 1rem;
+    --fs-m: 1.125rem;
+    --fs-l: 1.25rem;
+    --fs-xl: 3.75rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.results_section {
+    width: 1000px;
+    height: 1000px;
+    background-color: var(--Pale-blue);
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border-radius: 25px;
+    border-radius: 25px;
+}
+
+.card_content_l {
+    height: 375px;
+    width: 300px;
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.card_content_r {
+    height: 375px;
+    width: 300px;
+    background-color: white;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.circle {
+    width: 175px;
+    height: 175px;
+    background-color: black;
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.head_count {
+    font-size: 55px;
+    font-family: 'Hanken Grotesk';
+    font-weight: 700;
+}
