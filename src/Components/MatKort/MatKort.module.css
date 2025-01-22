@@ -31,7 +31,7 @@
 .container {
   display: flex;
   justify-content: center;
-  /* padding: 20px; */
+  font-weight: 400;
 }
 
 .recipe_page_content {
@@ -55,12 +55,17 @@ img {
   font-family: var(--font2);
   font-weight: 400;
   font-size: 2.2em;
+  color: var(--DarkCharcoal)
 }
 
 .recipe_page_content p {
   color: var(--WengeBrown);
   font-family: var(--font1);
   margin: 5px;
+}
+
+.instructions_container span {
+  font-family: var(--font1);
 }
 
 .prep_container h3 {
@@ -87,8 +92,16 @@ li {
   font-family: var(--font1);
 }
 
+li::marker {
+  color: var(--Nutmeg);
+}
+
+
 .instructions_container li {
   list-style: decimal;
+}
+.instructions_container li::marker {
+  color: var(--Nutmeg);
 }
 
 .boldText {
@@ -100,13 +113,17 @@ li {
   width: 100%;
   height: 1px;
   align-self: center;
+  display: block;
 }
 
 h2 {
-  color: var(--Nutmeg)
+  color: var(--Nutmeg);
+  margin: 5px;
+  font-weight: 400;
+  font-family: var(--font2);
 }
 
-.table {
+.nutrition_container {
   width: 100%;
 }
 
@@ -118,5 +135,5 @@ h2 {
 .nutritionalValue {
   font-weight: bold;
   color: var(--DarkRaspberry);
-  /* margin-right: 200px; */
+  margin-right: 200px;
 }

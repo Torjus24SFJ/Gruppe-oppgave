@@ -48,7 +48,7 @@ export function MatKort() {
               <h2>Instructions</h2>
               <ul>
                 <li>
-                  <span className={style.boldText}>Beat the eggs:</span>
+                  <span className={style.boldText}>Beat the eggs: </span>
                   <span>
                     In a bowl, beat the eggs with a pinch of salt and pepper
                     until they are well mixed. You can add a table spoon of
@@ -56,19 +56,42 @@ export function MatKort() {
                   </span>
                 </li>
                 <li>
-                  <span className={style.boldText}>Heat the pan:</span>
+                  <span className={style.boldText}>Heat the pan: </span>
+                  <span>
+                    PLace a non-stick frying pan over medium heat and add butter
+                    or oil.
+                  </span>
                 </li>
                 <li>
-                  <span className={style.boldText}>Cook the omelette:</span>
+                  <span className={style.boldText}>Cook the omelette: </span>
+                  <span>
+                    Once the butter is melted and bubbling, pour in the eggs.
+                    Tilt the pan to ensure the eggs evenly coat the surface.
+                  </span>
                 </li>
                 <li>
-                  <span className={style.boldText}>Add fillings(optional)</span>
+                  <span className={style.boldText}>
+                    Add fillings(optional){" "}
+                  </span>
+                  <span>
+                    When the eggs begin to set at the edges but are still
+                    slightly runny in the middle, sprinkle your chosen fillings
+                    over one half of the omelette.
+                  </span>
                 </li>
                 <li>
-                  <span className={style.boldText}>Fold and serve:</span>
+                  <span className={style.boldText}>Fold and serve: </span>
+                  <span>
+                    As the omelette continues to cook, carefully lift one edge
+                    and fold it over the fillings. Let it cook for another
+                    minute, then slide it onto a plate.
+                  </span>
                 </li>
                 <li>
-                  <span className={style.boldText}>Enjoy:</span>
+                  <span className={style.boldText}>Enjoy: </span>
+                  <span>
+                    Serve hot, with additional salt and pepper if needed.
+                  </span>
                 </li>
               </ul>
             </div>
