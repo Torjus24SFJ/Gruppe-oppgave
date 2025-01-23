@@ -1,11 +1,11 @@
-.app {
+/* .component {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: #121212;
     margin: 0;
-  }
+  } */
   /*  {
   box-sizing: border-box;
   margin: 0;
@@ -29,10 +29,5 @@
 
 
 body {
-
-}
-
-main {
-
 
 }
