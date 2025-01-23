@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap");
+
+:root {
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+
+  --White: hsl(0, 0%, 100%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+  --RoseWhite: hsl(330, 100%, 98%);
+
+  --font1: "Outfit", sans-serif;
+  --font2: "Young Serif", serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.recipe_page_section {
+  background-color: var(--Eggshell);
+  width: 1000px;
+  height: 2000px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  font-weight: 400;
+}
+
+.recipe_page_content {
+  background-color: var(--White);
+  width: 700px;
+  height: 100%;
+  margin: 90px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 15px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.recipe_page_content_h1 {
+  font-family: var(--font2);
+  font-weight: 400;
+  font-size: 2.2em;
+  color: var(--DarkCharcoal)
+}
+
+.recipe_page_content p {
+  color: var(--WengeBrown);
+  font-family: var(--font1);
+  margin: 5px;
+}
+
+.instructions_container span {
+  font-family: var(--font1);
+}
+
+.prep_container h3 {
+  color: var(--DarkRaspberry);
+}
+
+.ingredients_container h2 {
+  font-family: var(--font2);
+  font-weight: 400;
+  color: var(--Nutmeg);
+}
+
+.prep_container {
+  background-color: var(--RoseWhite);
+  padding: 20px;
+}
+
+
+/*! legg til class selectoren i tilleg før ul her: */
+ul {
+  padding-left: 20px;
+}
+
+/*! legg til class selectoren i tilleg før li her: */
+li {
+  padding-top: 20px;
+  font-family: var(--font1);
+}
+
+/*! legg til class selectoren i tilleg før li::marker her: */
+li::marker {
+  color: var(--Nutmeg);
+}
+
+
+.instructions_container li {
+  list-style: decimal;
+}
+.instructions_container li::marker {
+  color: var(--Nutmeg);
+}
+
+.boldText {
+  font-weight: 700;
+}
+
+.separator {
+  border-top: 1px solid var(--LightGrey);
+  width: 100%;
+  height: 1px;
+  align-self: center;
+  display: block;
+}
+
+/*! legg til class selectoren i tilleg før h2 her: */
+h2 {
+  color: var(--Nutmeg);
+  margin: 5px;
+  font-weight: 400;
+  font-family: var(--font2);
+}
+
+.nutrition_container {
+  width: 100%;
+}
+
+.table p {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nutritionalValue {
+  font-weight: bold;
+  color: var(--DarkRaspberry);
+  margin-right: 200px;
+}

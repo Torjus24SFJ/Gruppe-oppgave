@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+:root {
+  --Light-slate-blue: hsl(252, 100%, 67%);
+  --Light-royal-blue: hsl(241, 81%, 54%);
+  --Violet-blue: hsla(256, 72%, 46%, 1);
+  --Persian-blue: hsla(241, 72%, 46%, 0);
+  --white: hsl(0, 0%, 100%);
+  --Pale-blue: hsl(221, 100%, 96%);
+  --color: hsl(241, 100%, 89%);
+  --btn-bg: hsl(224, 30%, 27%);
+
+  --fs-xs: 0.875rem;
+  --fs-s: 1rem;
+  --fs-m: 1.125rem;
+  --fs-l: 1.25rem;
+  --fs-xl: 3.75rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.results_section {
+  width: 1000px;
+  height: 1000px;
+  background-color: var(--Pale-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*! legg til class selectoren i tilleg før .card her: */
+.card {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  border-radius: 25px;
+  border-radius: 25px;
+  font-family: "Hanken Grotesk";
+}
+
+.card_content_l {
+  height: 420px;
+  width: 300px;
+  background: linear-gradient(#6743ff, #322deb);
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  gap: 20px;
+}
+
+.card_content_r {
+  height: 420px;
+  width: 350px;
+  background-color: white;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-left: 30px;
+  padding: 40px;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  background: linear-gradient(#2823b0, #4640fd);
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle_p {
+  color: #8a7dff;
+  font-size: var(--fs-xs); 
+}
+
+.head_count {
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.score {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.result {
+  color: var(--color);
+  font-size: var(--fs-s);
+  font-weight: 700;
+}
+
+.score_h {
+  font-size: 22px;
+}
+
+.score_p {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  width: 90%;
+  color: var(--color);
+}
+
+.summary {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.rounded {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+}
+
+.round_base {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  background-color: var(--bg-color);
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+  padding: 0 10px;
+}
+
+.round_red {
+  background-color: #fff6f7;
+  color: #ff5555;
+}
+
+.round_yellow {
+  background-color: #fffaf4;
+  color: #ffb21e;
+}
+
+.round_green {
+  background-color: #f2fdf9;
+  color: #00bb8f;
+}
+
+.round_blue {
+  background-color: #f4f4fe;
+  color: #1125d6;
+}
+
+.round_img {
+  width: 18px;
+  height: 18px;
+  margin-right: 8px;
+}
+
+.score_rounded_text {
+  color: #565764;
+  font-weight: 900;
+  text-align: right;
+}
+
+.score_rounded_text span {
+  opacity: 50%;
+}
+
+.btn {
+  height: 40px;
+  width: 250px;
+  background-color: #303b59;
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  background: linear-gradient(#4a43fb, #2e29c9);
+}
