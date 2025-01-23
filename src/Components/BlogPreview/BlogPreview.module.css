@@ -1,12 +1,4 @@
-@font-face {
-    font-family: Figtree;
-    src: url("fonts/Figtree-VariableFont_wght.ttf")
-}
-
-@font-face {
-    font-family: Figtree-italic;
-    src: url("fonts/Figtree-italic-VariableFont_wght.ttf")
-}
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
     --background: hsl(47, 88%, 63%);
@@ -27,15 +19,15 @@
 }
 
 .card_content {
-    height: 550px;
+    height: 500px;
     width: 340px;
     background-color: var(--background-card);
     box-shadow: 7px 5px black;
     border: 2px solid black;
     padding: 15px;
-    margin-left: 100px;
     border-radius: 15px;
     align-items: center;
+    font-family: "Figtree", serif;
 }
 
 .category {
@@ -56,7 +48,22 @@ p {
 }
 
 .head_img{
+    width: 100%;
     border-radius: 10px;
+}
+
+.author {
+    font-weight: bold;
+}
+
+.content_person {
+    display: flex;
+}
+
+.placeholder {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 
