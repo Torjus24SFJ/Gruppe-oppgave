@@ -1,12 +1,12 @@
-import React from "react";
 import "./SocialKort.css";
+import profilePicture from "./avatar-jessica.jpeg";
 
 const SocialKort = () => {
   const user = {
     name: "Jessica Randall",
     location: "London, United Kingdom",
     description: "Front-end developer and avid reader.",
-    profilePicture: "./avatar-jessica.jpeg", 
+    profilePicture: profilePicture, 
     links: [
       { name: "GitHub", url: "https://github.com" },
       { name: "Frontend Mentor", url: "https://frontendmentor.io" },
@@ -21,7 +21,7 @@ const SocialKort = () => {
       <img src={user.profilePicture} alt={`${user.name}'s profile`} className="profile-picture" />
       <h2>{user.name}</h2>
       <p className="location">{user.location}</p>
-      <p className="description">"{user.description}"</p>
+      <p className="description">&apos;{user.description}&apos;</p>
       <div className="links">
         {user.links.map((link, index) => (
           <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
