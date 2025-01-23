@@ -120,8 +120,7 @@ li::marker {
   display: block;
 }
 
-/*! legg til class selectoren i tilleg før h2 her: */
-h2 {
+.list_h_text {
   color: var(--Nutmeg);
   margin: 5px;
   font-weight: 400;

@@ -31,7 +31,7 @@ export function MatKort() {
               </ul>
             </div>
             <div className={style.ingredients_container}>
-              <h2>Ingredients</h2>
+              <h2 className={style.list_h_text}>Ingredients</h2>
               <ul>
                 <li>2-3 large eggs</li>
                 <li>Salt, to taste</li>
@@ -45,7 +45,7 @@ export function MatKort() {
             </div>
             <span className={style.separator} />
             <div className={style.instructions_container}>
-              <h2>Instructions</h2>
+              <h2 className={style.list_h_text}>Instructions</h2>
               <ul>
                 <li>
                   <span className={style.boldText}>Beat the eggs: </span>
@@ -98,7 +98,7 @@ export function MatKort() {
             <span className={style.separator} />
             <div className={style.nutrition_container}>
               <div className={style.table}>
-                <h2>Nutrition</h2>
+                <h2 className={style.list_h_text}>Nutrition</h2>
                 <span className={style.separator} />
                 <p>
                   <span>Calories</span>
