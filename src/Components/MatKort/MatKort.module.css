@@ -83,15 +83,19 @@ img {
   padding: 20px;
 }
 
+
+/*! legg til class selectoren i tilleg før ul her: */
 ul {
   padding-left: 20px;
 }
 
+/*! legg til class selectoren i tilleg før li her: */
 li {
   padding-top: 20px;
   font-family: var(--font1);
 }
 
+/*! legg til class selectoren i tilleg før li::marker her: */
 li::marker {
   color: var(--Nutmeg);
 }
@@ -116,6 +120,7 @@ li::marker {
   display: block;
 }
 
+/*! legg til class selectoren i tilleg før h2 her: */
 h2 {
   color: var(--Nutmeg);
   margin: 5px;

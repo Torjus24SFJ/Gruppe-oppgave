@@ -32,6 +32,7 @@
   justify-content: center;
 }
 
+/*! legg til class selectoren i tilleg før .card her: */
 .card {
   display: flex;
   flex-direction: row;

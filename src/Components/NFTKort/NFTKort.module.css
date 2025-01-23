@@ -44,12 +44,15 @@
   border-radius: 10px;
 }
 
+/*! legg til class selectoren i tilleg før h1 her: */
 h1 {
   color: var(--White);
   margin-top: 20px;
   font-size: 20px;
 }
 
+
+/*! legg til class selectoren i tilleg før h3 her: */
 h3 {
   color: var(--Soft-blue);
   font-weight: 100;
