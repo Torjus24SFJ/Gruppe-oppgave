@@ -7,9 +7,11 @@ function App() {
 
   return (
     <>
+    <div className="gallery">
       {/* <MatKort /> */}
       {/* <NFTKort /> */}
       <ResultatOversikt />
+    </div>
     </>
   )
 }
