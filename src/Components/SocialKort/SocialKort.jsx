@@ -1,5 +1,5 @@
 import "./SocialKort.css";
-import profilePicture from "./avatar-jessica.jpeg";
+import profilePicture from "./assets/avatar-jessica.jpeg";
 
 const SocialKort = () => {
   const user = {
