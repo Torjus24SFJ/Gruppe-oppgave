@@ -13,7 +13,7 @@ export function BlogPreview() {
         <>
         <div className={style.page}>
             <div className={style.card_content}>
-                <div className={style.head}><img className={style.head_img} src="./src/assets/images/BlogPreview/illustration-article.svg" alt="" /></div>
+                <div className={style.head}><img className={style.head_img} src="/" alt="" /></div>  {/*<--- trenger og få inn ny bilde path*/}
                 <div className={style.placeholder}>
                     <h3 className={style.category}>Learning</h3>
                     <p className={style.published}>Published {cardInfo.published}</p>
