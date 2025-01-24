@@ -2,7 +2,7 @@ import "./App.css";
 import { BlogPreview } from "./Components/BlogPreview/BlogPreview";
 import { MatKort } from "./Components/MatKort/MatKort";
 import { NFTKort } from "./Components/NFTKort/NFTKort";
-import QRCodeComponent from "./Components/QR-codeComponent/qr-code-component-main/assets/QRCodeComponent";
+import {QRCodeComponent} from "./Components/QR-codeComponent/qr-code-component-main/assets/QRCodeComponent";
 import { ResultatOversikt } from "./Components/ResultatOversikt/ResultatOversikt";
 // import { MatKort } from "./Components/MatKort/MatKort";
 // import { NFTKort } from "./Components/NFTKort/NFTKort";
