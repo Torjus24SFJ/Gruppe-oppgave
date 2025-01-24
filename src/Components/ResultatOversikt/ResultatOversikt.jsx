@@ -34,7 +34,7 @@ export function ResultatOversikt() {
               <div className={style.rounded}>
                 <div className={`${style.round_base} ${style.round_red}`}>
                   <img className={style.round_img} 
-                    src="/src/assets/images/ResultatOversikt/icon-reaction.svg"
+                    src="./src/Components/ResultatOversikt/assets/icon-reaction.svg"
                     alt=""
                     />
                   <p>Reaction</p>
@@ -42,7 +42,7 @@ export function ResultatOversikt() {
                 </div>
                 <div className={`${style.round_base} ${style.round_yellow}`}>
                   <img className={style.round_img} 
-                    src="/src/assets/images/ResultatOversikt/icon-memory.svg"
+                    src="./src/Components/ResultatOversikt/assets/icon-memory.svg"
                     alt=""
                   />
                   <p>Memory</p>
@@ -50,7 +50,7 @@ export function ResultatOversikt() {
                 </div>
                 <div className={`${style.round_base} ${style.round_green}`}>
                   <img className={style.round_img} 
-                    src="/src/assets/images/ResultatOversikt/icon-verbal.svg"
+                    src="./src/Components/ResultatOversikt/assets/icon-verbal.svg"
                     alt=""
                   />
                   <p>Verbal</p>
@@ -58,7 +58,7 @@ export function ResultatOversikt() {
                 </div>
                 <div className={`${style.round_base} ${style.round_blue}`}>
                   <img className={style.round_img} 
-                    src="/src/assets/images/ResultatOversikt/icon-visual.svg"
+                    src="./src/Components/ResultatOversikt/assets/icon-visual.svg"
                     alt=""
                   />
                   <p>Visual</p>
