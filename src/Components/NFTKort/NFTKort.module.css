@@ -17,8 +17,8 @@
 }
 
 .nft_card_section {
-  width: 1000px;
-  height: 1000px;
+  min-width: 100vh;
+  padding: 10%;
   background-color: var(--Very-dark-blue-mainBG);
   display: flex;
   justify-content: center;
