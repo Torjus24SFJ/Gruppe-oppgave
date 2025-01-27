@@ -1,4 +1,5 @@
 import "./App.css";
+import { AdviceGenerator } from "./Components/AdviceGenerator/AdviceGenerator";
 import { BlogPreview } from "./Components/BlogPreview/BlogPreview";
 import { MatKort } from "./Components/MatKort/MatKort";
 import { NFTKort } from "./Components/NFTKort/NFTKort";
@@ -28,6 +29,9 @@ function App() {
           </div>
           <div className="component">
             <QRCodeComponent />
+          </div>
+          <div className="component">
+            <AdviceGenerator />
           </div>
         </div>
       </main>
