@@ -17,7 +17,7 @@ export function MatKort() {
             </p>
             <div className={style.prep_container}>
               <h3>Preparation time</h3>
-              <ul>
+              <ul className={style.prep_u_list}>
                 <li>
                   <span className={style.boldText}>Total:</span> Approximately
                   10 minutes
@@ -46,7 +46,7 @@ export function MatKort() {
             <span className={style.separator} />
             <div className={style.instructions_container}>
               <h2 className={style.list_h_text}>Instructions</h2>
-              <ul>
+              <ul className={style.prep_u_list}>
                 <li>
                   <span className={style.boldText}>Beat the eggs: </span>
                   <span>

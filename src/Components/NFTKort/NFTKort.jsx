@@ -12,9 +12,9 @@ export function NFTKort() {
               alt=""
             />
           </div>
-          <div>
+          <div className={style.etherium_h_container}>
             <h1>Equilibrium #3429</h1>
-            <h3>Our Equilibrium collection promotes balance and calm.</h3>
+            <h3 className={style.etherium_h_3}>Our Equilibrium collection promotes balance and calm.</h3>
           </div>
           <div className={style.etherium}>
             <div className={style.etherium_icon_container}>
