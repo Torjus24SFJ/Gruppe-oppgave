@@ -18,8 +18,7 @@
 
 .recipe_page_section {
   background-color: var(--Eggshell);
-  width: 1000px;
-  height: 2000px;
+  min-height: 100vh;
 }
 
 .container {

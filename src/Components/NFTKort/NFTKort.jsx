@@ -8,7 +8,7 @@ export function NFTKort() {
           <div>
             <img
               className={style.main_image}
-              src="./src/assets/images/NFTKort/image-equilibrium.jpg"
+              src="./src/Components/NFTKort/assets/image-equilibrium.jpg"
               alt=""
             />
           </div>
@@ -20,7 +20,7 @@ export function NFTKort() {
             <div className={style.etherium_icon_container}>
               <img
                 className={style.etherium_icon}
-                src="./src/assets/images/NFTKort/icon-ethereum.svg"
+                src="./src/Components/NFTKort/assets/icon-ethereum.svg"
                 alt=""
               />
               <span className={style.cyan}>0.041 ETH</span>
@@ -28,7 +28,7 @@ export function NFTKort() {
             <div className={style.etherium_icon_container}>
               <img
                 className={style.clock_icon}
-                src="./src/assets/images/NFTKort/icon-clock.svg"
+                src="./src/Components/NFTKort/assets/icon-clock.svg"
                 alt=""
               />
               <span  className={style.gray}>3 days left</span>
@@ -36,7 +36,7 @@ export function NFTKort() {
           </div>
           <span className={style.devider}></span>
           <div className={style.bottom_container}>
-            <img className={style.image_icon} src="./src/assets/images/NFTKort/image-avatar.png" alt="" />
+            <img className={style.image_icon} src="./src/Components/NFTKort/assets/image-avatar.png" alt="" />
             <p><span>Creation of </span>Jules Wyvern</p>
           </div>
         </div>

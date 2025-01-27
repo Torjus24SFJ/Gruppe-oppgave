@@ -17,15 +17,9 @@
   --fs-xl: 3.75rem;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .results_section {
-  width: 1000px;
-  height: 1000px;
+  min-width: 100vh;
+  padding: 10%;
   background-color: var(--Pale-blue);
   display: flex;
   align-items: center;
@@ -187,4 +181,5 @@
 
 .btn:hover {
   background: linear-gradient(#4a43fb, #2e29c9);
+  cursor: pointer;
 }

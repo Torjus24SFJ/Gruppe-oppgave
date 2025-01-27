@@ -6,13 +6,13 @@
 
 }
 
-
-
 .page {
     background-color: var(--background);
-    width: 1000px;
-    height: 1000px;
-    /*! fjern width og height. Skriv det heller inn som felles in div.component. Bruk heller height:100vh, du trenger nok ikke sette vw. */
+    min-width: 100vh;
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card_content {
@@ -33,19 +33,13 @@
     width: fit-content;
 }
 
-
-/*! font size for p er standard 16px, som gjør p selectoren under her unødvendig */
-p {
-    font-size: 16px;
-}
-
 .title_text:hover {
     color: var(--background);
     opacity: 80%;
     cursor: pointer;
 }
 
-.head_img{
+.head_img {
     width: 100%;
     border-radius: 10px;
 }
@@ -56,6 +50,13 @@ p {
 
 .content_person {
     display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.person {
+    width: 30px;
+    height: 30px;
 }
 
 .placeholder {
@@ -63,5 +64,3 @@ p {
     flex-direction: column;
     gap: 15px;
 }
-
-
