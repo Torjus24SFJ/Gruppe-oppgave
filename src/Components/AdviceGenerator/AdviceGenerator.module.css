@@ -65,13 +65,15 @@
   justify-content: center;
 }
 
-.card_button {
+.card_dice_button {
   position: absolute;
   bottom: -25px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
+
 }
 
 .card_dice {

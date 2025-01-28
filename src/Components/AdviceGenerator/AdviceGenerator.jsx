@@ -45,7 +45,7 @@ export function AdviceGenerator() {
             alt="divider"
           />
         </div>
-        <div className={style.card_button}>
+        <div className={style.card_dice_button}>
           <div className={style.card_dice} onClick={loadQuote}>
             <div className={style.card_dice_icon}>
               <img
