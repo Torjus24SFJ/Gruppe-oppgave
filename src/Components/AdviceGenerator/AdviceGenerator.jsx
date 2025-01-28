@@ -12,21 +12,22 @@ export function AdviceGenerator() {
   const url = `https://api.adviceslip.com/advice?random=${Math.random()}`;
 
   const loadQuote = () => {
-    if (loading) return;
-    setLoading(true);
-
-    fetch(url).then((response) =>
-      response
-        .json()
-        .then((data) => {
-          setId(data.slip.id);
-          setAdvice(data.slip.advice);
-        })
-        .catch((error) => {
-          console.error("Failed to load", error);
-        })
-        .finally(() => setLoading(false))
-    );
+    if (loading) {
+      return loading(true);
+    } else {
+      fetch(url).then((response) =>
+        response
+          .json()
+          .then((data) => {
+            setId(data.slip.id);
+            setAdvice(data.slip.advice);
+          })
+          .catch((error) => {
+            console.error("Failed to load", error);
+          })
+          .finally(() => setLoading(false))
+      );
+    }
   };
 
   return (
