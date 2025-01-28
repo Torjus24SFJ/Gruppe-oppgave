@@ -46,11 +46,7 @@ export function AdviceGenerator() {
           />
         </div>
         <div className={style.card_button}>
-          <div
-            className={style.card_dice}
-            onClick={loadQuote}
-            style={loading ? { cursor: "not-allowed" } : {}}
-          >
+          <div className={style.card_dice} onClick={loadQuote}>
             <div className={style.card_dice_icon}>
               <img
                 src="./src/Components/AdviceGenerator/assets/icon-dice.svg"

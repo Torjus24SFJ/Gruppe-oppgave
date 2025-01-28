@@ -52,16 +52,6 @@
   font-size: 22px;
   line-height: 1.4;
   display: block;
-  word-wrap: break-word;
-}
-
-.card_quote q:before, 
-.card_quote q:after {
-  content: open-quote;
-}
-
-.card_quote q:after {
-  content: close-quote;
 }
 
 .card_quote q {
@@ -73,7 +63,6 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
 }
 
 .card_button {
