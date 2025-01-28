@@ -22,12 +22,15 @@
   font-family: "Manrope", sans-serif;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   position: relative;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 20px; 
 }
 
 .card_head h3 {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin: 30px;
   color: #53ffab;
   font-size: 12px;
   letter-spacing: 0.3rem;
@@ -52,8 +55,8 @@
 
 .card_button {
     position: absolute; 
-    bottom: 20px; 
-    width: 100%; 
+    bottom: -25px;
+    width: 94%; 
     display: flex;
     justify-content: center;
     align-items: center;

@@ -4,21 +4,29 @@ import style from "./AdviceGenerator.module.css";
 export function AdviceGenerator() {
   const [advice, setAdvice] = useState(
     "It is easy to sit up and take notice, what's difficult is getting up and taking action"
-  ); 
-  const [id, setId] = useState(null); 
+  );
+
+  const [id, setId] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const loadQuote = () => {
-    if (loading) return; 
-    setLoading(true); 
+  const url = `https://api.adviceslip.com/advice?random=${Math.random()}`;
 
-    fetch("https://api.adviceslip.com/advice")
-      .then((response) => response.json())
-      .then((data) => {
-        setId(data.slip.id); 
-        setAdvice(data.slip.advice);
-      })
-      .finally(() => setLoading(false)); 
+  const loadQuote = () => {
+    if (loading) return;
+    setLoading(true);
+
+    fetch(url).then((response) =>
+      response
+        .json()
+        .then((data) => {
+          setId(data.slip.id);
+          setAdvice(data.slip.advice);
+        })
+        .catch((error) => {
+          console.error("Failed to load", error);
+        })
+        .finally(() => setLoading(false))
+    );
   };
 
   return (
@@ -28,9 +36,7 @@ export function AdviceGenerator() {
           <h3>ADVICE #{id}</h3>
         </div>
         <div className={style.card_quote}>
-          <q>
-            {loading ? "Loading new advice..." : advice} 
-          </q>
+          <q>{advice}</q>
         </div>
         <div className={style.card_divider}>
           <img
