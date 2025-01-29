@@ -3,7 +3,7 @@ import qrCodeImage from "./assets/image-qr-code.png";
 
 export const QRCodeComponent = () => {
   return (
-    <div className="div">
+    <div className="qr-page">
       <div className="qr-card">
         <img src={qrCodeImage} alt="QR Code" className="qr-image" />
         <div className="qr-text">
