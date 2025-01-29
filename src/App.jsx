@@ -33,9 +33,6 @@ function App() {
           <div className="component">
             <AdviceGenerator />
           </div>
-          <div className="component">
-            <QRCodeComponent />
-          </div>
         </div>
       </main>
     </>

@@ -17,6 +17,8 @@ const SocialKort = () => {
   };
 
   return (
+    <div className="social-page">
+
     <div className="social-kort">
       <img src={user.profilePicture} alt={`${user.name}'s profile`} className="profile-picture" />
       <h2>{user.name}</h2>
@@ -30,6 +32,7 @@ const SocialKort = () => {
         ))}
       </div>
     </div>
+        </div>
   );
 };
 
