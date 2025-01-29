@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.card_section {
+  background-color: #202632;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card_content {
+  background-color: #313a49;
+  height: 320px;
+  width: 540px;
+  padding-top: 20px;
+  border-radius: 15px;
+  font-family: "Manrope", sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.card_head h3 {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  color: #53ffab;
+  font-size: 12px;
+  letter-spacing: 0.3rem;
+}
+
+.card_quote {
+  color: #cee2e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 90%;
+  margin: 20px auto;
+  padding: 0 10px;
+  height: 120px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card_quote q {
+  font-size: 22px;
+  line-height: 1.4;
+  display: block;
+}
+
+.card_quote q {
+  font-size: clamp(18px, 2vw, 22px);
+}
+
+.card_divider {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card_dice_button {
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.card_dice {
+  background-color: #53ffab;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.3s ease;
+}
+
+.card_dice:hover {
+  box-shadow: 0 0 20px 5px rgba(83, 255, 171, 0.7);
+}
+
+.card_dice_icon img {
+  border-radius: 0px;
+}
