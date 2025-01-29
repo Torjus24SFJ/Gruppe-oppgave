@@ -6,7 +6,7 @@ const SocialKort = () => {
     name: "Jessica Randall",
     location: "London, United Kingdom",
     description: "Front-end developer and avid reader.",
-    profilePicture: profilePicture, 
+    profilePicture: profilePicture,
     links: [
       { name: "GitHub", url: "https://github.com" },
       { name: "Frontend Mentor", url: "https://frontendmentor.io" },
@@ -17,22 +17,31 @@ const SocialKort = () => {
   };
 
   return (
-    <div className="social-kort">
-      <img src={user.profilePicture} alt={`${user.name}'s profile`} className="profile-picture" />
-      <h2>{user.name}</h2>
-      <p className="location">{user.location}</p>
-      <p className="description">&apos;{user.description}&apos;</p>
-      <div className="links">
-        {user.links.map((link, index) => (
-          <a key={index} href={link.url} target="_blank" rel="noopener noreferrer">
-            {link.name}
-          </a>
-        ))}
+    <div className="social-page">
+      <div className="social-kort">
+        <img
+          src={user.profilePicture}
+          alt={`${user.name}'s profile`}
+          className="profile-picture"
+        />
+        <h2>{user.name}</h2>
+        <p className="location">{user.location}</p>
+        <p className="description">&apos;{user.description}&apos;</p>
+        <div className="links">
+          {user.links.map((link, index) => (
+            <a
+              key={index}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              {link.name}
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );
 };
 
 export default SocialKort;
-
-
