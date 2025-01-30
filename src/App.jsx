@@ -6,6 +6,7 @@ import { NFTKort } from "./Components/NFTKort/NFTKort";
 import {QRCodeComponent} from "./Components/QR-codeComponent/QRCodeComponent";
 import { ResultatOversikt } from "./Components/ResultatOversikt/ResultatOversikt";
 import SocialKort from "./Components/SocialKort/SocialKort";
+import RestCountries from "./Components/Rest-Countries/RestCountries";
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
           </div>
           <div className="component">
             <AdviceGenerator />
+          </div>
+          <div className="component">
+            <RestCountries />
           </div>
         </div>
       </main>
