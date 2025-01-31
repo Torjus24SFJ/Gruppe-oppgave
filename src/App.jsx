@@ -8,6 +8,7 @@ import { ResultatOversikt } from "./Components/ResultatOversikt/ResultatOversikt
 // import { ResultatOversikt } from "./Components/ResultatOversikt/ResultatOversikt";
 import SocialKort from "./Components/SocialKort/SocialKort";
 import RestCountries from "./Components/Rest-Countries/RestCountries";
+import { AdviceGenerator } from "./Components/AdviceGenerator/AdviceGenerator";
 
 function App() {
   return (
@@ -28,6 +29,12 @@ function App() {
           </div>
           <div className="component">
             <SocialKort />
+          </div>
+          <div className="component">
+            <RestCountries />
+          </div>
+          <div className="component">
+            <AdviceGenerator />
           </div>
         </div>
       </main>
