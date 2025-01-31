@@ -2,34 +2,39 @@
   display: flex;
   justify-content: center;
   background-color: cadetblue;
-  padding:10%;
-  
+  padding: 10%;
+}
+
+.qr-page {
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+  padding: 10%;
 }
 .qr-card {
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-    max-width: 320px;
-    text-align: center;
-    padding: 20px;
-    margin: 20px auto;
-    font-family: "Arial", sans-serif;
-  }
-  
-  .qr-image {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 15px;
-  }
-  
-  .qr-text h2 {
-    font-size: 18px;
-    color: #1f314f;
-    margin: 10px 0;
-  }
-  
-  .qr-text p {
-    font-size: 14px;
-    color: #7d889e;
-  }
-  
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  max-width: 320px;
+  text-align: center;
+  padding: 20px;
+  margin: 20px auto;
+  font-family: "Arial", sans-serif;
+}
+
+.qr-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.qr-text h2 {
+  font-size: 18px;
+  color: #1f314f;
+  margin: 10px 0;
+}
+
+.qr-text p {
+  font-size: 14px;
+  color: #7d889e;
+}
