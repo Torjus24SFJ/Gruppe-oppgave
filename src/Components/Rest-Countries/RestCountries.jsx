@@ -36,6 +36,10 @@ const RestCountries = () => {
     country.name.common.toLowerCase().includes(search.toLowerCase())
   );
 
+  useEffect(() => {
+    console.log(filteredCountries);
+  }, [filteredCountries]);
+
   return (
     <div className="container rest-contries">
       {/* Navbar med Dark Mode-toggle */}

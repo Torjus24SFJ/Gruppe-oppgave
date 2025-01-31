@@ -71,6 +71,8 @@ body {
 
 /* Landkort */
 .country-card {
+  justify-self: center;
+  width: 275px;
   background: var(--card-bg);
   padding: 15px;
   border-radius: 10px;
